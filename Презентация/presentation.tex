@@ -66,9 +66,13 @@
 \usepackage{tikz} % Работа с графикой
 \usepackage{pgfplots}
 \usepackage{pgfplotstable}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{diagbox}
 
 \usepackage{dsfont}
 \newcommand{\R}{\mathbb{R}}
+\newcommand{\norm}[1]{\lVert #1 \rVert_2}
 
 \title{Собеседование на специализацию <<Интеллектуальный анализ данных>>}
 \author{Киселев Никита Б05-002}
@@ -124,9 +128,9 @@
             \item Объекту $\mathbf{x} \in \mathds{X}$ соответствует признаковое описание $\mathbf{x} = (f_1(x), \ldots, f_n(x))$,
             где $f_j: \mathbf{X} \to D_j$ 
             \item Множество ответов $\mathds{Y} = \R$
-            \item Выборка $\mathds{D} = \{ (\mathbf{x}_i, y_i) \ | \ \mathbf{x}_i \in \mathds{X}, y_i \in \mathds{Y}, i = 1, \ldots m \}$
+            \item Выборка $\mathds{D} = \{ (\mathbf{x}_i, y_i) \ | \ \mathbf{x}_i \in \mathds{X}, y_i \in \mathds{Y}, i = 1, \ldots, m \}$
             \item Матрица объекты-признаки $X = (\mathbf{x}_1, \ldots, \mathbf{x}_m)^T$, вектор ответов $\mathbf{y} \in \R^m$
-            \item Вектор параметров модели $\mathbf{w} = (w_0, w_1, \ldots, w_n)^T$
+            \item Вектор параметров модели $\mathbf{w} = (w_1, \ldots, w_n)^T$
             \item Ставится задача минимизации ошибки алгоритма $Q(w, X) = \lVert X \mathbf{w} - y \rVert_2^2 \to \min\limits_{\mathbf{w}}$
         \end{itemize}
     \end{frame}
@@ -147,9 +151,179 @@
     \begin{frame}{$L_2$ регуляризация}
         Могут возникнуть проблемы мультиколлинеарности в случае, если матрица $X^T X$ плохо обусловлена.
         Один из способов решения~--- добавление к этой матрице диагональной:
-        \[ \mathbf{w}^* = (X^T X + \alpha E_n)^{-1} X^T y \]
+        \[ \fbox{$\mathbf{w}^* = (X^T X + \alpha E_n)^{-1} X^T y$} \]
         При этом значении вектора $w$ достигается минимум функционала ошибки
-        \[ Q(\mathbf{w}, X, \alpha) = \lVert X \mathbf{w} - y \rVert_2^2 + \alpha \lVert \mathbf{w} \rVert_2^2 \]
+        \[ Q(\mathbf{w}, X, \alpha) = \norm{X \mathbf{w} - y}^2 + \alpha \lVert \mathbf{w} \rVert_2^2 \]
+    \end{frame}
+
+    \begin{frame}{Изменение параметра $\alpha$}
+        \begin{figure}
+            \centering
+            \begin{subfigure}[b]{0.475\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{MSE_plot_oh.pdf}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}[b]{0.475\textwidth}  
+                \centering 
+                \includegraphics[width=\textwidth]{feature_plot_oh.pdf}
+            \end{subfigure}
+            \begin{subfigure}[b]{0.475\textwidth}   
+                \centering 
+                \includegraphics[width=\textwidth]{MSE_plot.pdf}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}[b]{0.475\textwidth}   
+                \centering 
+                \includegraphics[width=\textwidth]{feature_plot.pdf}
+            \end{subfigure} 
+        \end{figure}
+    \end{frame}
+
+    \begin{frame}{Стандартизация}
+        При стандартизации происходит преобразование признаков:
+        \[ \hat{f}_j(\mathbf{x}_i) = \dfrac{f_j(\mathbf{x}_i) - \bar{f}_j}{S_j}, \]
+        где 
+        \[ \bar{f}_j = \dfrac{1}{m} \sum\limits_{i = 1}^m f_j(\mathbf{x}_i) \text{~--- выборочное среднее}, \]
+        \[ S_j = \sqrt{\dfrac{1}{m} \sum\limits_{i=1}^m (f_j(\mathbf{x}_i) - \bar{f}_j)^2} \text{~--- среднеквадратичное отклонение}. \]
+    \end{frame}
+
+    \begin{frame}{Изменение параметра $\alpha$ при стандартизации}
+        \begin{figure}
+            \centering
+            \begin{subfigure}[b]{0.475\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{MSE_plot_oh_scaled.pdf}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}[b]{0.475\textwidth}  
+                \centering 
+                \includegraphics[width=\textwidth]{feature_plot_oh_scaled.pdf}
+            \end{subfigure}
+            \begin{subfigure}[b]{0.475\textwidth}   
+                \centering 
+                \includegraphics[width=\textwidth]{MSE_plot_scaled.pdf}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}[b]{0.475\textwidth}   
+                \centering 
+                \includegraphics[width=\textwidth]{feature_plot_scaled.pdf}
+            \end{subfigure} 
+        \end{figure}
+    \end{frame}
+
+    \begin{frame}{Отбор признаков}
+        \begin{figure}
+            \centering
+            \begin{subfigure}[b]{0.475\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{features_corr_oh.pdf}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}[b]{0.475\textwidth}  
+                \centering 
+                \includegraphics[width=\textwidth]{features_corr.pdf}
+            \end{subfigure}
+        \end{figure}
+    \end{frame}
+
+    \begin{frame}{Преобразования признаков и ответов}
+        \begin{enumerate}
+            \item rain~--- номинальный
+            \item FFMC $\geq$ 75
+            \item ISI $\to \ln(ISI)$
+            \item area $\to \ln(1 + area)$
+        \end{enumerate}
+    \end{frame}
+
+    \begin{frame}{Взаимосвязь новых признаков и ответов}
+        \begin{figure}
+            \centering
+            \begin{subfigure}[b]{0.475\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{features_corr_oh_1.pdf}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}[b]{0.475\textwidth}  
+                \centering 
+                \includegraphics[width=\textwidth]{features_corr_1.pdf}
+            \end{subfigure}
+        \end{figure}
+    \end{frame}
+
+    \begin{frame}{Изменение параметра $\alpha$}
+        \begin{figure}
+            \centering
+            \begin{subfigure}[b]{0.475\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{MSE_plot_oh_1.pdf}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}[b]{0.475\textwidth}  
+                \centering 
+                \includegraphics[width=\textwidth]{feature_plot_oh_1.pdf}
+            \end{subfigure}
+            \begin{subfigure}[b]{0.475\textwidth}   
+                \centering 
+                \includegraphics[width=\textwidth]{MSE_plot_1.pdf}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}[b]{0.475\textwidth}   
+                \centering 
+                \includegraphics[width=\textwidth]{feature_plot_1.pdf}
+            \end{subfigure} 
+        \end{figure}
+    \end{frame}
+
+    \begin{frame}{Изменение параметра $\alpha$ при стандартизации}
+        \begin{figure}
+            \centering
+            \begin{subfigure}[b]{0.475\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{MSE_plot_oh_scaled_1.pdf}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}[b]{0.475\textwidth}  
+                \centering 
+                \includegraphics[width=\textwidth]{feature_plot_oh_scaled_1.pdf}
+            \end{subfigure}
+            \begin{subfigure}[b]{0.475\textwidth}   
+                \centering 
+                \includegraphics[width=\textwidth]{MSE_plot_scaled_1.pdf}
+            \end{subfigure}
+            \hfill
+            \begin{subfigure}[b]{0.475\textwidth}   
+                \centering 
+                \includegraphics[width=\textwidth]{feature_plot_scaled_1.pdf}
+            \end{subfigure} 
+        \end{figure}
+    \end{frame}
+
+    \begin{frame}{Сравнение результатов}
+        \begin{table}[h!]
+            \centering
+            \begin{tabular}{|c|c|c|}
+                \hline
+                \diagbox{Стандартизация}{Преобразование} & До       & После  \\ \hline
+                - & 616,50                 & 1,82                    \\ \hline
+                + & 624,78                 & 1,89                    \\ \hline
+            \end{tabular}
+            \caption{Лучшее значение MSE на кросс-валидации}
+        \end{table}
+
+        Стоит отметить, что после преобразования ответами являются $\ln(1 + area)$.
+
+    \end{frame}
+
+    \begin{frame}{Наиболее значимые признаки}
+        Значимость признаков при решении задачи лучше всего оценивается на данных
+        после преобразования. Таковыми являются:
+        \begin{itemize}
+            \item month~--- месяц года
+            \item wind~--- скорость ветра
+            \item rain~--- количество осадков
+            \item DC и DMC~--- индексы засухи и влажности почвы
+        \end{itemize}
     \end{frame}
 
 \end{document}
