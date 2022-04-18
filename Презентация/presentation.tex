@@ -2,7 +2,7 @@
 %\documentclass[handout]{beamer} % Раздаточный материал (на слайдах всё сразу)
 \documentclass{beamer} % Соотношение сторон
 
-%\usetheme{Berkeley} % Тема оформления
+%\usetheme{Warsaw} % Тема оформления
 %\usetheme{Bergen}
 \usetheme[progressbar = frametitle]{metropolis}
 \setbeamertemplate{frame numbering}[fraction]
@@ -20,11 +20,6 @@
 \usepackage[T2A]{fontenc}			% кодировка
 \usepackage[utf8]{inputenc}			% кодировка исходного текста
 \usepackage[english,russian]{babel}	% локализация и переносы
-
-%% Beamer по-русски
-\newtheorem{rtheorem}{Теорема}
-\newtheorem{rproof}{Доказательство}
-\newtheorem{rexample}{Пример}
 
 %%% Дополнительная работа с математикой
 \usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
@@ -71,6 +66,7 @@
 \usepackage{diagbox}
 
 \usepackage{dsfont}
+\usepackage{bm}
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\norm}[1]{\lVert #1 \rVert_2}
 
@@ -125,35 +121,35 @@
     \begin{frame}{Линейная регрессия}
         \begin{itemize}
             \item Множество объектов $\mathds{X} = \R^n$
-            \item Объекту $\mathbf{x} \in \mathds{X}$ соответствует признаковое описание $\mathbf{x} = (f_1(x), \ldots, f_n(x))$,
-            где $f_j: \mathbf{X} \to D_j$ 
+            \item Объекту $\bm{x} \in \mathds{X}$ соответствует признаковое описание $\bm{x} = (f_1(x), \ldots, f_n(x))$,
+            где $f_j: \mathds{X} \to D_j$ 
             \item Множество ответов $\mathds{Y} = \R$
-            \item Выборка $\mathds{D} = \{ (\mathbf{x}_i, y_i) \ | \ \mathbf{x}_i \in \mathds{X}, y_i \in \mathds{Y}, i = 1, \ldots, m \}$
-            \item Матрица объекты-признаки $X = (\mathbf{x}_1, \ldots, \mathbf{x}_m)^T$, вектор ответов $\mathbf{y} \in \R^m$
-            \item Вектор параметров модели $\mathbf{w} = (w_1, \ldots, w_n)^T$
-            \item Ставится задача минимизации ошибки алгоритма $Q(w, X) = \lVert X \mathbf{w} - y \rVert_2^2 \to \min\limits_{\mathbf{w}}$
+            \item Выборка $\mathds{D} = \{ (\bm{x}_i, y_i) \ | \ \bm{x}_i \in \mathds{X}, y_i \in \mathds{Y}, i = 1, \ldots, m \}$
+            \item Матрица объекты-признаки $X = (\bm{x}_1, \ldots, \bm{x}_m)^T$, вектор ответов $\bm{y} \in \mathds{Y}^m$
+            \item Вектор параметров модели $\bm{w} = (w_1, \ldots, w_n)^T$
+            \item Ставится задача минимизации ошибки алгоритма $Q(\bm{w}, X) = \lVert X \bm{w} - \bm{y} \rVert_2^2 \to \min\limits_{\bm{w}}$
         \end{itemize}
     \end{frame}
 
     \begin{frame}{Метод наименьших квадратов}
-        \[ Q(\mathbf{w}, X) = \lVert X \mathbf{w} - y \rVert_2^2 = (X \mathbf{w} - y)^T (X \mathbf{w} - y) \to \min\limits_{\mathbf{w}} \]
+        \[ Q(\bm{w}, X) = \lVert X \bm{w} - \bm{y} \rVert_2^2 = (X \bm{w} - \bm{y})^T (X \bm{w} - \bm{y}) \to \min\limits_{\bm{w}} \]
 
-        Приравняем к нулю производную по вектору $\mathbf{w}$:
+        Приравняем к нулю производную по вектору $\bm{w}$:
         \begin{multline*}
-            \nabla_{\mathbf{w}} Q(\mathbf{w}, X) = \nabla_{\mathbf{w}}(-y^T X \mathbf{w} + \mathbf{w}^T X^T X \mathbf{w} + y^T y - \mathbf{w}^T X^T y) = \\ 
-            = - X^T y + (X^T X + X^T X) \mathbf{w} + 0 - X^T y = 0
+            \nabla_{\bm{w}} Q(\bm{w}, X) = \nabla_{\bm{w}}(-\bm{y}^T X \bm{w} + \bm{w}^T X^T X \bm{w} + \bm{y}^T \bm{y} - \bm{w}^T X^T \bm{y}) = \\ 
+            = - X^T \bm{y} + (X^T X + X^T X) \bm{w} + 0 - X^T \bm{y} = 0
         \end{multline*}
-        \[ X^T X \mathbf{w} = X^T y \]
-        \[ \fbox{$\mathbf{w}^* = (X^T X)^{-1} X^T y$} \]
+        \[ X^T X \bm{w} = X^T \bm{y} \]
+        \[ \fbox{$\bm{w}^* = (X^T X)^{-1} X^T \bm{y}$} \]
 
     \end{frame}
 
     \begin{frame}{$L_2$ регуляризация}
         Могут возникнуть проблемы мультиколлинеарности в случае, если матрица $X^T X$ плохо обусловлена.
         Один из способов решения~--- добавление к этой матрице диагональной:
-        \[ \fbox{$\mathbf{w}^* = (X^T X + \alpha E_n)^{-1} X^T y$} \]
-        При этом значении вектора $w$ достигается минимум функционала ошибки
-        \[ Q(\mathbf{w}, X, \alpha) = \norm{X \mathbf{w} - y}^2 + \alpha \lVert \mathbf{w} \rVert_2^2 \]
+        \[ \fbox{$\bm{w}^* = (X^T X + \alpha E_n)^{-1} X^T \bm{y}$} \]
+        При этом значении вектора $\bm{w}$ достигается минимум функционала ошибки
+        \[ Q(\bm{w}, X, \alpha) = \norm{X \bm{w} - \bm{y}}^2 + \alpha \lVert \bm{w} \rVert_2^2 \]
     \end{frame}
 
     \begin{frame}{Изменение параметра $\alpha$}
@@ -182,10 +178,10 @@
 
     \begin{frame}{Стандартизация}
         При стандартизации происходит преобразование признаков:
-        \[ \hat{f}_j(\mathbf{x}_i) = \dfrac{f_j(\mathbf{x}_i) - \bar{f}_j}{S_j}, \]
+        \[ \hat{f}_j(\bm{x}_i) = \dfrac{f_j(\bm{x}_i) - \bar{f}_j}{S_j}, \]
         где 
-        \[ \bar{f}_j = \dfrac{1}{m} \sum\limits_{i = 1}^m f_j(\mathbf{x}_i) \text{~--- выборочное среднее}, \]
-        \[ S_j = \sqrt{\dfrac{1}{m} \sum\limits_{i=1}^m (f_j(\mathbf{x}_i) - \bar{f}_j)^2} \text{~--- среднеквадратичное отклонение}. \]
+        \[ \bar{f}_j = \dfrac{1}{m} \sum\limits_{i = 1}^m f_j(\bm{x}_i) \text{~--- выборочное среднее}, \]
+        \[ S_j = \sqrt{\dfrac{1}{m} \sum\limits_{i=1}^m (f_j(\bm{x}_i) - \bar{f}_j)^2} \text{~--- среднеквадратичное отклонение}. \]
     \end{frame}
 
     \begin{frame}{Изменение параметра $\alpha$ при стандартизации}
@@ -302,13 +298,13 @@
     \begin{frame}{Сравнение результатов}
         \begin{table}[h!]
             \centering
+            \caption{Лучшее значение MSE на кросс-валидации}
             \begin{tabular}{|c|c|c|}
                 \hline
                 \diagbox{Стандартизация}{Преобразование} & До       & После  \\ \hline
-                - & 616,50                 & 1,82                    \\ \hline
-                + & 624,78                 & 1,89                    \\ \hline
+                $-$ & 616,50                 & 1,82                    \\ \hline
+                $+$ & 624,78                 & 1,89                    \\ \hline
             \end{tabular}
-            \caption{Лучшее значение MSE на кросс-валидации}
         \end{table}
 
         Стоит отметить, что после преобразования ответами являются $\ln(1 + area)$.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.5)  14 APR 2022 14:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.5)  18 APR 2022 18:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -866,16 +866,12 @@ File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
 Language: russian 2020/09/09 1.3k Russian support for the Babel system
 Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
-))
-\c@rtheorem=\count347
-\c@rproof=\count348
-\c@rexample=\count349
- (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+)) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count350
+\g_MT_multlinerow_int=\count347
 \l_MT_multwidth_dim=\dimen308
 \origjot=\skip76
 \l_MT_shortvdotswithinadjustabove_dim=\dimen309
@@ -891,7 +887,7 @@ Package: icomma 2002/03/10 v2.0 (WaS)
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen316
 \WF@size=\dimen317
-\c@WF@wrappedlines=\count351
+\c@WF@wrappedlines=\count348
 \WF@box=\box81
 \WF@everypar=\toks51
 Package: wrapfig 2003/01/31  v 3.6
@@ -911,11 +907,11 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen322
 \TX@target=\dimen323
 \TX@delta=\dimen324
-\TX@cols=\count352
+\TX@cols=\count349
 \TX@ftn=\toks53
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
-\TY@count=\count353
+\TY@count=\count350
 \TY@linewidth=\dimen325
 \tymin=\dimen326
 \tymax=\dimen327
@@ -932,12 +928,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen336
 \cmidrulekern=\dimen337
 \defaultaddspace=\dimen338
-\@cmidla=\count354
-\@cmidlb=\count355
+\@cmidla=\count351
+\@cmidlb=\count352
 \@aboverulesep=\dimen339
 \@belowrulesep=\dimen340
-\@thisruleclass=\count356
-\@lastruleclass=\count357
+\@thisruleclass=\count353
+\@lastruleclass=\count354
 \@thisrulewidth=\dimen341
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
@@ -945,22 +941,22 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTright=\skip80
 \LTpre=\skip81
 \LTpost=\skip82
-\LTchunksize=\count358
+\LTchunksize=\count355
 \LTcapwidth=\dimen342
 \LT@head=\box84
 \LT@firsthead=\box85
 \LT@foot=\box86
 \LT@lastfoot=\box87
 \LT@gbox=\box88
-\LT@cols=\count359
-\LT@rows=\count360
-\c@LT@tables=\count361
-\c@LT@chunks=\count362
+\LT@cols=\count356
+\LT@rows=\count357
+\c@LT@tables=\count358
+\c@LT@chunks=\count359
 \LT@p@ftn=\toks54
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip83
-\multirow@cntb=\count363
+\multirow@cntb=\count360
 \multirow@dima=\skip84
 \bigstrutjot=\dimen343
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
@@ -978,12 +974,12 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@ulht=\dimen346
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count364
-\csq@gtype=\count365
-\csq@glevel=\count366
-\csq@qlevel=\count367
-\csq@maxlvl=\count368
-\csq@tshold=\count369
+\csq@reset=\count361
+\csq@gtype=\count362
+\csq@glevel=\count363
+\csq@qlevel=\count364
+\csq@maxlvl=\count365
+\csq@tshold=\count366
 \csq@ltx@everypar=\toks60
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -994,14 +990,14 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count370
+\c@tracingmulticols=\count367
 \mult@box=\box89
 \multicol@leftmargin=\dimen347
-\c@unbalance=\count371
-\c@collectmore=\count372
-\doublecol@number=\count373
-\multicoltolerance=\count374
-\multicolpretolerance=\count375
+\c@unbalance=\count368
+\c@collectmore=\count369
+\doublecol@number=\count370
+\multicoltolerance=\count371
+\multicolpretolerance=\count372
 \full@width=\dimen348
 \page@free=\dimen349
 \premulticols=\dimen350
@@ -1051,15 +1047,15 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box129
 \@tempa=\box130
 \@tempa=\box131
-\c@minrows=\count376
-\c@columnbadness=\count377
-\c@finalcolumnbadness=\count378
+\c@minrows=\count373
+\c@columnbadness=\count374
+\c@finalcolumnbadness=\count375
 \last@try=\dimen353
 \multicolovershoot=\dimen354
 \multicolundershoot=\dimen355
 \mult@nat@firstbox=\box132
 \colbreak@box=\box133
-\mc@col@check@num=\count379
+\mc@col@check@num=\count376
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
@@ -1067,28 +1063,28 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \t@pgfplots@tokb=\toks62
 \t@pgfplots@tokc=\toks63
 \pgfplots@tmpa=\dimen356
-\c@pgfplots@coordindex=\count380
-\c@pgfplots@scanlineindex=\count381
+\c@pgfplots@coordindex=\count377
+\c@pgfplots@scanlineindex=\count378
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count382
+\c@pgfplotsarray@tmp=\count379
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count383
+\c@pgfplotstable@counta=\count380
 \t@pgfplotstable@a=\toks64
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count384
+\c@pgfplotslibrarysurf@no=\count381
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen357
 \pgfdecoratedremainingdistance=\dimen358
 \pgfdecoratedinputsegmentcompleteddistance=\dimen359
 \pgfdecoratedinputsegmentremainingdistance=\dimen360
 \pgf@decorate@distancetomove=\dimen361
-\pgf@decorate@repeatstate=\count385
+\pgf@decorate@repeatstate=\count382
 \pgfdecorationsegmentamplitude=\dimen362
 \pgfdecorationsegmentlength=\dimen363
 )
 \tikz@lib@dec@box=\box134
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count386
+\pgfplots@numplots=\count383
 \pgfplots@xmin@reg=\dimen364
 \pgfplots@xmax@reg=\dimen365
 \pgfplots@ymin@reg=\dimen366
@@ -1117,8 +1113,8 @@ Package caption Info: beamer document class detected.
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-beamer.sto
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to the beamer document classes (AR)
 ))
-\c@caption@flags=\count387
-\c@continuedfloat=\count388
+\c@caption@flags=\count384
+\c@continuedfloat=\count385
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
@@ -1129,8 +1125,8 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: wrapfig package is loaded.
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
-\c@subfigure=\count389
-\c@subtable=\count390
+\c@subfigure=\count386
+\c@subtable=\count387
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/diagbox\diagbox.sty
 Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\pict2e.sty
@@ -1164,6 +1160,21 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \diagbox@outsepr=\dimen391
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/doublestroke\dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 70.
+ (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup8
+\symboldletters=\mathgroup9
+\symboldsymbols=\mathgroup10
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+Package bm Info: No bold for \T2A/cmr/m/up, using \pmb.
+\symboldpureletters=\mathgroup11
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/beamertheme-metropolis\pgfplotsthemetol.sty
 Package: pgfplotsthemetol 2017/01/23 PGFplots colors based on Paul Tol's SRON technical note
 )
@@ -1173,35 +1184,35 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'russian'.
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count391
+\l__color_backend_stack_int=\count388
 \l__pdf_internal_box=\box138
 ) (presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 85.
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 81.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 81.
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    ... okay on input line 81.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1239,16 +1250,16 @@ LaTeX Font Info:    ... okay on input line 85.
 
 (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count392
+\scratchcounter=\count389
 \scratchdimen=\dimen392
 \scratchbox=\box139
-\nofMPsegments=\count393
-\nofMParguments=\count394
+\nofMPsegments=\count390
+\nofMParguments=\count391
 \everyMPshowfont=\toks66
-\MPscratchCnt=\count395
+\MPscratchCnt=\count392
 \MPscratchDim=\dimen393
-\MPnumerator=\count396
-\makeMPintoPDFobject=\count397
+\MPnumerator=\count393
+\makeMPintoPDFobject=\count394
 \everyMPtoPDFconversion=\toks67
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1256,7 +1267,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 85.
+Package hyperref Info: Link coloring OFF on input line 81.
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -1264,68 +1275,72 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count398
+\c@section@level=\count395
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
  (presentation.out) (presentation.out)
 \@outlinefile=\write5
 \openout5 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 85.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 81.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 85.
-\symnumbers=\mathgroup7
-\sympureletters=\mathgroup8
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 85.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T2A/cmss/b/n on input line 85.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 85.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 85.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 85.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 85.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T2A/cmr/b/n on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T2A/cmss/b/n --> T2A/cmss/b/n on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 85.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T2A/cmtt/m/n --> T2A/cmtt/b/n on input line 85.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 85.
-LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 85.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 81.
+\symnumbers=\mathgroup12
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 81.
+LaTeX Font Info:    Encoding `OT1' has changed to `T2A' for symbol font
+(Font)              `pureletters' in the math version `normal' on input line 81.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T2A/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 85.
+(Font)                  OT1/mathkerncmss/m/sl --> T2A/cmss/m/it on input line 81.
+LaTeX Font Info:    Encoding `OT1' has changed to `T2A' for symbol font
+(Font)              `pureletters' in the math version `bold' on input line 81.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/bx/sl --> T2A/cmss/m/it on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> T2A/cmr/m/n on input line 81.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 81.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T2A/cmss/m/n on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T2A/cmss/m/n on input line 81.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T2A/cmss/m/it on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T2A/cmss/m/it on input line 81.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T2A/cmtt/m/n on input line 81.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 81.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> T2A/cmr/b/n on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T2A/cmss/b/n --> T2A/cmss/b/n on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T2A/cmss/m/n --> T2A/cmss/b/n on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T2A/cmss/m/it --> T2A/cmss/b/it on input line 81.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T2A/cmtt/m/n --> T2A/cmtt/b/n on input line 81.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 81.
 LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 85.
+(Font)              `pureletters' in the math version `normal' on input line 81.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  T2A/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 81.
+LaTeX Font Info:    Encoding `T2A' has changed to `OT1' for symbol font
+(Font)              `pureletters' in the math version `bold' on input line 81.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 85.
+(Font)                  T2A/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 81.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 85.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 81.
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -1339,17 +1354,17 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \th on input line 85.
+LaTeX Info: Redefining \th on input line 81.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 85.
+(lastpage)             ! on input line 81.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (presentation.nav)
-Overfull \vbox (47.30699pt too high) detected at line 90
+Overfull \vbox (47.30699pt too high) detected at line 86
  []
 
 [1
@@ -1360,10 +1375,10 @@ Overfull \vbox (47.30699pt too high) detected at line 90
 <..//area_distribution.pdf, id=30, 482.70906pt x 446.75299pt>
 File: ..//area_distribution.pdf Graphic file (type pdf)
 <use ..//area_distribution.pdf>
-Package pdftex.def Info: ..//area_distribution.pdf  used on input line 109.
+Package pdftex.def Info: ..//area_distribution.pdf  used on input line 105.
 (pdftex.def)             Requested size: 241.35394pt x 223.37595pt.
 
-Overfull \vbox (22.76093pt too high) detected at line 109
+Overfull \vbox (22.76093pt too high) detected at line 105
  []
 
 [3
@@ -1372,7 +1387,7 @@ Overfull \vbox (22.76093pt too high) detected at line 109
 <..//cat_features.pdf, id=60, 971.3132pt x 951.19801pt>
 File: ..//cat_features.pdf Graphic file (type pdf)
 <use ..//cat_features.pdf>
-Package pdftex.def Info: ..//cat_features.pdf  used on input line 116.
+Package pdftex.def Info: ..//cat_features.pdf  used on input line 112.
 (pdftex.def)             Requested size: 194.2592pt x 190.23622pt.
  [4
 
@@ -1380,68 +1395,63 @@ Package pdftex.def Info: ..//cat_features.pdf  used on input line 116.
 <..//num_features_corr.pdf, id=122, 711.35225pt x 497.62349pt>
 File: ..//num_features_corr.pdf Graphic file (type pdf)
 <use ..//num_features_corr.pdf>
-Package pdftex.def Info: ..//num_features_corr.pdf  used on input line 123.
+Package pdftex.def Info: ..//num_features_corr.pdf  used on input line 119.
 (pdftex.def)             Requested size: 248.977pt x 174.17082pt.
  [5
 
  <..//num_features_corr.pdf>]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 136.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 132.
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 136.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 132.
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 136.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 132.
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 136.
+(Font)              using `T2A/cmr/m/n' instead on input line 132.
 
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 136.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 132.
 (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 136.
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 132.
  (C:\Users\kisnikser\AppData\Local\Programs\MiKTeX\tex/latex/doublestroke\udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-)
-
-LaTeX Font Warning: Font shape `T2A/cmss/b/n' undefined
-(Font)              using `T2A/cmss/m/n' instead on input line 136.
-
-[6
+) [6
 
 ] [7
 
 ] [8
 
 ]
-<..//MSE_plot_oh.pdf, id=219, 588.45468pt x 410.15483pt>
+<..//MSE_plot_oh.pdf, id=221, 588.45468pt x 410.15483pt>
 File: ..//MSE_plot_oh.pdf Graphic file (type pdf)
 <use ..//MSE_plot_oh.pdf>
-Package pdftex.def Info: ..//MSE_plot_oh.pdf  used on input line 181.
+Package pdftex.def Info: ..//MSE_plot_oh.pdf  used on input line 177.
 (pdftex.def)             Requested size: 145.96455pt x 101.73737pt.
-<..//feature_plot_oh.pdf, id=220, 579.9228pt x 409.15108pt>
+<..//feature_plot_oh.pdf, id=222, 579.9228pt x 409.15108pt>
 File: ..//feature_plot_oh.pdf Graphic file (type pdf)
 <use ..//feature_plot_oh.pdf>
-Package pdftex.def Info: ..//feature_plot_oh.pdf  used on input line 181.
+Package pdftex.def Info: ..//feature_plot_oh.pdf  used on input line 177.
 (pdftex.def)             Requested size: 145.96455pt x 102.9805pt.
-<..//MSE_plot.pdf, id=221, 588.53696pt x 410.15483pt>
+<..//MSE_plot.pdf, id=223, 588.53696pt x 410.15483pt>
 File: ..//MSE_plot.pdf Graphic file (type pdf)
 <use ..//MSE_plot.pdf>
-Package pdftex.def Info: ..//MSE_plot.pdf  used on input line 181.
+Package pdftex.def Info: ..//MSE_plot.pdf  used on input line 177.
 (pdftex.def)             Requested size: 145.96455pt x 101.7186pt.
-<..//feature_plot.pdf, id=222, 584.60039pt x 409.15108pt>
+<..//feature_plot.pdf, id=224, 584.60039pt x 409.15108pt>
 File: ..//feature_plot.pdf Graphic file (type pdf)
 <use ..//feature_plot.pdf>
-Package pdftex.def Info: ..//feature_plot.pdf  used on input line 181.
+Package pdftex.def Info: ..//feature_plot.pdf  used on input line 177.
 (pdftex.def)             Requested size: 145.96455pt x 102.1564pt.
 
-Overfull \vbox (5.52188pt too high) detected at line 181
+Overfull \vbox (5.52188pt too high) detected at line 177
  []
 
 [9
@@ -1458,28 +1468,28 @@ pdfTeX warning: pdflatex (file ..//feature_plot.pdf): PDF inclusion: multiple pd
 >] [10
 
 ]
-<..//MSE_plot_oh_scaled.pdf, id=417, 588.45468pt x 410.15483pt>
+<..//MSE_plot_oh_scaled.pdf, id=419, 588.45468pt x 410.15483pt>
 File: ..//MSE_plot_oh_scaled.pdf Graphic file (type pdf)
 <use ..//MSE_plot_oh_scaled.pdf>
-Package pdftex.def Info: ..//MSE_plot_oh_scaled.pdf  used on input line 213.
+Package pdftex.def Info: ..//MSE_plot_oh_scaled.pdf  used on input line 209.
 (pdftex.def)             Requested size: 145.96455pt x 101.73737pt.
-<..//feature_plot_oh_scaled.pdf, id=418, 579.9228pt x 409.15108pt>
+<..//feature_plot_oh_scaled.pdf, id=420, 579.9228pt x 409.15108pt>
 File: ..//feature_plot_oh_scaled.pdf Graphic file (type pdf)
 <use ..//feature_plot_oh_scaled.pdf>
-Package pdftex.def Info: ..//feature_plot_oh_scaled.pdf  used on input line 213.
+Package pdftex.def Info: ..//feature_plot_oh_scaled.pdf  used on input line 209.
 (pdftex.def)             Requested size: 145.96455pt x 102.9805pt.
-<..//MSE_plot_scaled.pdf, id=419, 588.53696pt x 410.15483pt>
+<..//MSE_plot_scaled.pdf, id=421, 588.53696pt x 410.15483pt>
 File: ..//MSE_plot_scaled.pdf Graphic file (type pdf)
 <use ..//MSE_plot_scaled.pdf>
-Package pdftex.def Info: ..//MSE_plot_scaled.pdf  used on input line 213.
+Package pdftex.def Info: ..//MSE_plot_scaled.pdf  used on input line 209.
 (pdftex.def)             Requested size: 145.96455pt x 101.7186pt.
-<..//feature_plot_scaled.pdf, id=420, 570.79881pt x 409.15108pt>
+<..//feature_plot_scaled.pdf, id=422, 570.79881pt x 409.15108pt>
 File: ..//feature_plot_scaled.pdf Graphic file (type pdf)
 <use ..//feature_plot_scaled.pdf>
-Package pdftex.def Info: ..//feature_plot_scaled.pdf  used on input line 213.
+Package pdftex.def Info: ..//feature_plot_scaled.pdf  used on input line 209.
 (pdftex.def)             Requested size: 145.96455pt x 104.62244pt.
 
-Overfull \vbox (7.98792pt too high) detected at line 213
+Overfull \vbox (7.98792pt too high) detected at line 209
  []
 
 [11
@@ -1494,15 +1504,15 @@ pdfTeX warning: pdflatex (file ..//MSE_plot_scaled.pdf): PDF inclusion: multiple
 
 pdfTeX warning: pdflatex (file ..//feature_plot_scaled.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<..//features_corr_oh.pdf, id=601, 581.55054pt x 716.09843pt>
+<..//features_corr_oh.pdf, id=603, 581.55054pt x 716.09843pt>
 File: ..//features_corr_oh.pdf Graphic file (type pdf)
 <use ..//features_corr_oh.pdf>
-Package pdftex.def Info: ..//features_corr_oh.pdf  used on input line 228.
+Package pdftex.def Info: ..//features_corr_oh.pdf  used on input line 224.
 (pdftex.def)             Requested size: 145.96455pt x 179.7344pt.
-<..//features_corr.pdf, id=602, 437.65518pt x 552.18736pt>
+<..//features_corr.pdf, id=604, 437.65518pt x 552.18736pt>
 File: ..//features_corr.pdf Graphic file (type pdf)
 <use ..//features_corr.pdf>
-Package pdftex.def Info: ..//features_corr.pdf  used on input line 228.
+Package pdftex.def Info: ..//features_corr.pdf  used on input line 224.
 (pdftex.def)             Requested size: 145.96455pt x 184.1603pt.
  [12
 
@@ -1512,15 +1522,15 @@ pdfTeX warning: pdflatex (file ..//features_corr.pdf): PDF inclusion: multiple p
 >] [13
 
 ]
-<..//features_corr_oh_1.pdf, id=716, 581.55054pt x 716.49052pt>
+<..//features_corr_oh_1.pdf, id=718, 581.55054pt x 716.49052pt>
 File: ..//features_corr_oh_1.pdf Graphic file (type pdf)
 <use ..//features_corr_oh_1.pdf>
-Package pdftex.def Info: ..//features_corr_oh_1.pdf  used on input line 252.
+Package pdftex.def Info: ..//features_corr_oh_1.pdf  used on input line 248.
 (pdftex.def)             Requested size: 145.96455pt x 179.83281pt.
-<..//features_corr_1.pdf, id=717, 437.65518pt x 552.57945pt>
+<..//features_corr_1.pdf, id=719, 437.65518pt x 552.57945pt>
 File: ..//features_corr_1.pdf Graphic file (type pdf)
 <use ..//features_corr_1.pdf>
-Package pdftex.def Info: ..//features_corr_1.pdf  used on input line 252.
+Package pdftex.def Info: ..//features_corr_1.pdf  used on input line 248.
 (pdftex.def)             Requested size: 145.96455pt x 184.29106pt.
  [14
 
@@ -1528,28 +1538,28 @@ Package pdftex.def Info: ..//features_corr_1.pdf  used on input line 252.
 
 pdfTeX warning: pdflatex (file ..//features_corr_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<..//MSE_plot_oh_1.pdf, id=829, 570.04214pt x 410.15483pt>
+<..//MSE_plot_oh_1.pdf, id=831, 570.04214pt x 410.15483pt>
 File: ..//MSE_plot_oh_1.pdf Graphic file (type pdf)
 <use ..//MSE_plot_oh_1.pdf>
-Package pdftex.def Info: ..//MSE_plot_oh_1.pdf  used on input line 276.
+Package pdftex.def Info: ..//MSE_plot_oh_1.pdf  used on input line 272.
 (pdftex.def)             Requested size: 145.96455pt x 105.02306pt.
-<..//feature_plot_oh_1.pdf, id=830, 584.5181pt x 409.15108pt>
+<..//feature_plot_oh_1.pdf, id=832, 584.5181pt x 409.15108pt>
 File: ..//feature_plot_oh_1.pdf Graphic file (type pdf)
 <use ..//feature_plot_oh_1.pdf>
-Package pdftex.def Info: ..//feature_plot_oh_1.pdf  used on input line 276.
+Package pdftex.def Info: ..//feature_plot_oh_1.pdf  used on input line 272.
 (pdftex.def)             Requested size: 145.96455pt x 102.16888pt.
-<..//MSE_plot_1.pdf, id=831, 574.63744pt x 410.15483pt>
+<..//MSE_plot_1.pdf, id=833, 574.63744pt x 410.15483pt>
 File: ..//MSE_plot_1.pdf Graphic file (type pdf)
 <use ..//MSE_plot_1.pdf>
-Package pdftex.def Info: ..//MSE_plot_1.pdf  used on input line 276.
+Package pdftex.def Info: ..//MSE_plot_1.pdf  used on input line 272.
 (pdftex.def)             Requested size: 145.96455pt x 104.18442pt.
-<..//feature_plot_1.pdf, id=832, 584.5181pt x 409.15108pt>
+<..//feature_plot_1.pdf, id=834, 584.5181pt x 409.15108pt>
 File: ..//feature_plot_1.pdf Graphic file (type pdf)
 <use ..//feature_plot_1.pdf>
-Package pdftex.def Info: ..//feature_plot_1.pdf  used on input line 276.
+Package pdftex.def Info: ..//feature_plot_1.pdf  used on input line 272.
 (pdftex.def)             Requested size: 145.96455pt x 102.16888pt.
 
-Overfull \vbox (9.59245pt too high) detected at line 276
+Overfull \vbox (9.59245pt too high) detected at line 272
  []
 
 [15
@@ -1564,28 +1574,28 @@ pdfTeX warning: pdflatex (file ..//MSE_plot_1.pdf): PDF inclusion: multiple pdfs
 
 pdfTeX warning: pdflatex (file ..//feature_plot_1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<..//MSE_plot_oh_scaled_1.pdf, id=1021, 579.24841pt x 410.15483pt>
+<..//MSE_plot_oh_scaled_1.pdf, id=1023, 579.24841pt x 410.15483pt>
 File: ..//MSE_plot_oh_scaled_1.pdf Graphic file (type pdf)
 <use ..//MSE_plot_oh_scaled_1.pdf>
-Package pdftex.def Info: ..//MSE_plot_oh_scaled_1.pdf  used on input line 300.
+Package pdftex.def Info: ..//MSE_plot_oh_scaled_1.pdf  used on input line 296.
 (pdftex.def)             Requested size: 145.96455pt x 103.35205pt.
-<..//feature_plot_oh_scaled_1.pdf, id=1022, 584.5181pt x 409.15108pt>
+<..//feature_plot_oh_scaled_1.pdf, id=1024, 584.5181pt x 409.15108pt>
 File: ..//feature_plot_oh_scaled_1.pdf Graphic file (type pdf)
 <use ..//feature_plot_oh_scaled_1.pdf>
-Package pdftex.def Info: ..//feature_plot_oh_scaled_1.pdf  used on input line 300.
+Package pdftex.def Info: ..//feature_plot_oh_scaled_1.pdf  used on input line 296.
 (pdftex.def)             Requested size: 145.96455pt x 102.16888pt.
-<..//MSE_plot_scaled_1.pdf, id=1023, 560.83588pt x 410.15483pt>
+<..//MSE_plot_scaled_1.pdf, id=1025, 560.83588pt x 410.15483pt>
 File: ..//MSE_plot_scaled_1.pdf Graphic file (type pdf)
 <use ..//MSE_plot_scaled_1.pdf>
-Package pdftex.def Info: ..//MSE_plot_scaled_1.pdf  used on input line 300.
+Package pdftex.def Info: ..//MSE_plot_scaled_1.pdf  used on input line 296.
 (pdftex.def)             Requested size: 145.96455pt x 106.74413pt.
-<..//feature_plot_scaled_1.pdf, id=1024, 584.5181pt x 409.15108pt>
+<..//feature_plot_scaled_1.pdf, id=1026, 584.5181pt x 409.15108pt>
 File: ..//feature_plot_scaled_1.pdf Graphic file (type pdf)
 <use ..//feature_plot_scaled_1.pdf>
-Package pdftex.def Info: ..//feature_plot_scaled_1.pdf  used on input line 300.
+Package pdftex.def Info: ..//feature_plot_scaled_1.pdf  used on input line 296.
 (pdftex.def)             Requested size: 145.96455pt x 102.16888pt.
 
-Overfull \vbox (10.48116pt too high) detected at line 300
+Overfull \vbox (10.48116pt too high) detected at line 296
  []
 
 [16
@@ -1623,17 +1633,17 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 42220 strings out of 478584
- 1002153 string characters out of 2842514
- 1341725 words of memory out of 3000000
- 59469 multiletter control sequences out of 15000+600000
- 490648 words of font info for 78 fonts, out of 8000000 for 9000
+ 42325 strings out of 478584
+ 1003706 string characters out of 2842514
+ 1343390 words of memory out of 3000000
+ 59542 multiletter control sequences out of 15000+600000
+ 499457 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,1926b,752s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/doublestroke/dsrom10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfss0800.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfss1000.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfss1095.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1000.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1095.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on presentation.pdf (18 pages, 788391 bytes).
+{C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/doublestroke/dsrom10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfso0800.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfso1000.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfss0800.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfss1000.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfss1095.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1000.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1095.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/kisnikser/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb>
+Output written on presentation.pdf (18 pages, 821550 bytes).
 PDF statistics:
- 1298 PDF objects out of 1440 (max. 8388607)
+ 1309 PDF objects out of 1440 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)
  178 words of extra memory for PDF output out of 10000 (max. 10000000)
 
