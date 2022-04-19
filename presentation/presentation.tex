@@ -1,18 +1,13 @@
-%\documentclass[c]{beamer}  % [t], [c], или [b] --- вертикальное выравнивание на слайдах (верх, центр, низ)
-%\documentclass[handout]{beamer} % Раздаточный материал (на слайдах всё сразу)
-\documentclass{beamer} % Соотношение сторон
+%--------------------------------------------------------------------------------------------------
+% Подключение библиотек и прочее
+%--------------------------------------------------------------------------------------------------
 
-%\usetheme{Warsaw} % Тема оформления
-%\usetheme{Bergen}
-\usetheme[progressbar = frametitle]{metropolis}
-\setbeamertemplate{frame numbering}[fraction]
-\useoutertheme{metropolis}
-\useinnertheme{metropolis}
-\usefonttheme{metropolis}
-\usecolortheme{dolphin} % Цветовая схема
-\setbeamercolor{background canvas}{bg=white}
-%\useinnertheme{circles}
-%\useinnertheme{rectangles}
+\documentclass{beamer} % Соотношение сторон - [aspectratio = 169]
+
+\usetheme{Warsaw} % Тема оформления
+%\usefonttheme[onlymath]{serif}
+%\usecolortheme{default} % Цветовая схема
+%\definecolor{beamer@blendedblue}{RGB}{15, 120, 80}
 
 %%% Работа с русским языком
 \usepackage{cmap}					% поиск в PDF
@@ -25,14 +20,7 @@
 \usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
 \usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
 
-%% Номера формул
-%\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
-%\usepackage{leqno} % Нумерация формул слева
-
-%% Свои команды
-\DeclareMathOperator{\sgn}{\mathop{sgn}}
-
-%% Перенос знаков в формулах (по Львовскому)
+%%% Перенос знаков в формулах (по Львовскому)
 \newcommand*{\hm}[1]{#1\nobreak\discretionary{}
 	{\hbox{$\mathsurround=0pt #1$}}{}}
 
@@ -43,43 +31,42 @@
 \usepackage{wrapfig} % Обтекание рисунков текстом
 
 %%% Работа с таблицами
-\usepackage{array,tabularx,tabulary,booktabs} % Дополнительная работа с таблицами
+\usepackage{array, tabularx, tabulary, booktabs} % Дополнительная работа с таблицами
 \usepackage{longtable}  % Длинные таблицы
 \usepackage{multirow} % Слияние строк в таблице
 
-%%% Программирование
-\usepackage{etoolbox} % логические операторы
-
 %%% Другие пакеты
-\usepackage{lastpage} % Узнать, сколько всего страниц в документе.
-\usepackage{soul} % Модификаторы начертания
-\usepackage{csquotes} % Еще инструменты для ссылок
-%\usepackage[style=authoryear,maxcitenames=2,backend=biber,sorting=nty]{biblatex}
 \usepackage{multicol} % Несколько колонок
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{diagbox}
+\usepackage{dsfont}
+\usepackage{bm}
 
 %%% Картинки
 \usepackage{tikz} % Работа с графикой
 \usepackage{pgfplots}
 \usepackage{pgfplotstable}
-\usepackage{caption}
-\usepackage{subcaption}
-\usepackage{diagbox}
 
-\usepackage{dsfont}
-\usepackage{bm}
+
+%%% Свои команды
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\norm}[1]{\lVert #1 \rVert_2}
 
-\title{Собеседование на специализацию <<Интеллектуальный анализ данных>>}
-\author{Киселев Никита Б05-002}
-\date{\today}
-\institute[Московский физико-технический институт]{Московский физико-технический институт \\ (национальный исследовательский университет)}
+%--------------------------------------------------------------------------------------------------
 
-\setbeamercovered{transparent = 15}
-\graphicspath{{../}}
+\title[Тестовая задача]{Собеседование на специализацию <<Интеллектуальный анализ данных>>}
+\author{Киселев Никита Б05-002}
+\date[\today]{\today}
+\institute[МФТИ]{Московский физико-технический институт \\ (национальный исследовательский университет)}
+
+%--------------------------------------------------------------------------------------------------
+
+\graphicspath{{../images}}
+
+%--------------------------------------------------------------------------------------------------
 
 \begin{document}
-\metroset{block = fill}
 	
 	\begin{frame}
 		\maketitle
@@ -121,35 +108,35 @@
     \begin{frame}{Линейная регрессия}
         \begin{itemize}
             \item Множество объектов $\mathds{X} = \R^n$
-            \item Объекту $\bm{x} \in \mathds{X}$ соответствует признаковое описание $\bm{x} = (f_1(x), \ldots, f_n(x))$,
+            \item Объекту ${x} \in \mathds{X}$ соответствует признаковое описание ${x} = (f_1(x), \ldots, f_n(x))$,
             где $f_j: \mathds{X} \to D_j$ 
             \item Множество ответов $\mathds{Y} = \R$
-            \item Выборка $\mathds{D} = \{ (\bm{x}_i, y_i) \ | \ \bm{x}_i \in \mathds{X}, y_i \in \mathds{Y}, i = 1, \ldots, m \}$
-            \item Матрица объекты-признаки $X = (\bm{x}_1, \ldots, \bm{x}_m)^T$, вектор ответов $\bm{y} \in \mathds{Y}^m$
-            \item Вектор параметров модели $\bm{w} = (w_1, \ldots, w_n)^T$
-            \item Ставится задача минимизации ошибки алгоритма $Q(\bm{w}, X) = \lVert X \bm{w} - \bm{y} \rVert_2^2 \to \min\limits_{\bm{w}}$
+            \item Выборка $\mathds{D} = \{ ({x}_i, y_i) \ | \ {x}_i \in \mathds{X}, y_i \in \mathds{Y}, i = 1, \ldots, m \}$
+            \item Матрица объекты-признаки $X = ({x}_1, \ldots, {x}_m)^T$, вектор ответов ${y} \in \mathds{Y}^m$
+            \item Вектор параметров модели ${w} = (w_1, \ldots, w_n)^T$
+            \item Ставится задача минимизации ошибки алгоритма $Q({w}, X) = \lVert X {w} - {y} \rVert_2^2 \to \min\limits_{{w}}$
         \end{itemize}
     \end{frame}
 
     \begin{frame}{Метод наименьших квадратов}
-        \[ Q(\bm{w}, X) = \lVert X \bm{w} - \bm{y} \rVert_2^2 = (X \bm{w} - \bm{y})^T (X \bm{w} - \bm{y}) \to \min\limits_{\bm{w}} \]
+        \[ Q({w}, X) = \lVert X {w} - {y} \rVert_2^2 = (X {w} - {y})^T (X {w} - {y}) \to \min\limits_{{w}} \]
 
-        Приравняем к нулю производную по вектору $\bm{w}$:
+        Приравняем к нулю производную по вектору ${w}$:
         \begin{multline*}
-            \nabla_{\bm{w}} Q(\bm{w}, X) = \nabla_{\bm{w}}(-\bm{y}^T X \bm{w} + \bm{w}^T X^T X \bm{w} + \bm{y}^T \bm{y} - \bm{w}^T X^T \bm{y}) = \\ 
-            = - X^T \bm{y} + (X^T X + X^T X) \bm{w} + 0 - X^T \bm{y} = 0
+            \nabla_{{w}} Q({w}, X) = \nabla_{{w}}(-{y}^T X {w} + {w}^T X^T X {w} + {y}^T {y} - {w}^T X^T {y}) = \\ 
+            = - X^T {y} + (X^T X + X^T X) {w} + 0 - X^T {y} = 0
         \end{multline*}
-        \[ X^T X \bm{w} = X^T \bm{y} \]
-        \[ \fbox{$\bm{w}^* = (X^T X)^{-1} X^T \bm{y}$} \]
+        \[ X^T X {w} = X^T {y} \]
+        \[ \fbox{${w}^* = (X^T X)^{-1} X^T {y}$} \]
 
     \end{frame}
 
     \begin{frame}{$L_2$ регуляризация}
         Могут возникнуть проблемы мультиколлинеарности в случае, если матрица $X^T X$ плохо обусловлена.
         Один из способов решения~--- добавление к этой матрице диагональной:
-        \[ \fbox{$\bm{w}^* = (X^T X + \alpha E_n)^{-1} X^T \bm{y}$} \]
-        При этом значении вектора $\bm{w}$ достигается минимум функционала ошибки
-        \[ Q(\bm{w}, X, \alpha) = \norm{X \bm{w} - \bm{y}}^2 + \alpha \lVert \bm{w} \rVert_2^2 \]
+        \[ \fbox{${w}^* = (X^T X + \alpha E_n)^{-1} X^T {y}$} \]
+        При этом значении вектора ${w}$ достигается минимум функционала ошибки
+        \[ Q({w}, X, \alpha) = \norm{X {w} - {y}}^2 + \alpha \lVert {w} \rVert_2^2 \]
     \end{frame}
 
     \begin{frame}{Изменение параметра $\alpha$}
@@ -178,10 +165,10 @@
 
     \begin{frame}{Стандартизация}
         При стандартизации происходит преобразование признаков:
-        \[ \hat{f}_j(\bm{x}_i) = \dfrac{f_j(\bm{x}_i) - \bar{f}_j}{S_j}, \]
+        \[ \hat{f}_j({x}_i) = \dfrac{f_j({x}_i) - \bar{f}_j}{S_j}, \]
         где 
-        \[ \bar{f}_j = \dfrac{1}{m} \sum\limits_{i = 1}^m f_j(\bm{x}_i) \text{~--- выборочное среднее}, \]
-        \[ S_j = \sqrt{\dfrac{1}{m} \sum\limits_{i=1}^m (f_j(\bm{x}_i) - \bar{f}_j)^2} \text{~--- среднеквадратичное отклонение}. \]
+        \[ \bar{f}_j = \dfrac{1}{m} \sum\limits_{i = 1}^m f_j({x}_i) \text{~--- выборочное среднее}, \]
+        \[ S_j = \sqrt{\dfrac{1}{m} \sum\limits_{i=1}^m (f_j({x}_i) - \bar{f}_j)^2} \text{~--- среднеквадратичное отклонение}. \]
     \end{frame}
 
     \begin{frame}{Изменение параметра $\alpha$ при стандартизации}
